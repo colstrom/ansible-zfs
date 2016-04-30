@@ -1,0 +1,7 @@
+---
+- apt:
+    state: latest
+    name: ubuntu-zfs
+    tags:
+    - software-installation
+    - using-apt
